@@ -1,0 +1,66 @@
+body{
+    background: #b60542;
+    background: linear-gradient(180deg, rgba(182,5,66,1) 10%, rgba(9,121,117,1) 58%, rgba(0,255,29,1) 99%);
+    margin: 0;
+}
+
+h1{
+    color:#b60542;
+    text-align: center;
+}
+#form{
+    margin:20vh auto 20vh auto;
+    padding: 40px;
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(54, 54, 54);
+}
+
+.inputgroup{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    border-radius: 5px;
+    font-size: 20px ;
+    border:1px solid rgb(34, 193, 195);
+    margin-top: 5px;
+    padding: 10px;
+}
+.inputgroup input:focus{
+    outline: 0;
+}
+button{
+    border: 0cap;
+    border-radius: 5px;
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+}
+button:hover{
+    background-color: green;
+}
+
+.inputgroup .error{
+    color: red;
+    font-size: 18px;
+    margin-top:5px;
+}
+
+.inputgroup.succes input{
+    border: 1px solid green;
+}
+.inputgroup.error input{
+
+    border: 1px solid red;
+
+}
