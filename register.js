@@ -21,7 +21,7 @@ function Validate(){
     /*let success = true;*/
   
     if(usernameval===''){
-       #success = false;
+       /*success = false;*/
         seterror(username,'Username reqired');
     }
     else{
@@ -29,36 +29,36 @@ function Validate(){
     }
 
     if(emailval === ''){
-        #success = false;
+        /*success = false;*/
         seterror(email,'Email is required')
     }else if(!ValidateEmail(emailval)){
-        #success = false;
+        /*success = false;*/
         seterror(email,'Enter proper email')
     }
     else{
         success(email)
     }
     if(passwordval === ''){
-        #success = false;
+        /*success = false;*/
         seterror(password,'Password is required')
     }else if(passwordval.length<8){
-        #success = false;
+        /*success = false;*/
         seterror(password,'Enter password greater than 8')
     }
     else{
         success(password)
     }
     if(cpasswordval === ''){
-        #success = false;
+        /*success = false;*/
         seterror(cpassword,'Confirm password is required')
     }else if(cpasswordval!== passwordval){
-        #success = false;
+        /*success = false;*/
         seterror(cpassword,'Password does not match')
     }
     else{
         success(cpassword)
     }
-    #return success;
+    /*return success;*/
 
 }
 
